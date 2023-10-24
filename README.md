@@ -6,12 +6,13 @@ NOTE) In the following, we will be using the python 3 commands. You may instead 
 
 # Installation
 We advise you to create a virtual enviroment (python venv, conda) to install the packages.
+Preferred version of python - **python3.8**. 
 
 1. Run ```pip3 install -r requirements.txt.```
 2. Test the setup by running 
   ```
    cd test_suit
-   python3 -m test_isTriangle
+   python3 -m test_triangle
    ```
 3. Test the initial test suite by running the script: ```test.sh```
 
