@@ -1,3 +1,6 @@
+# CS520 
+Anshumaan Chauhan & Hsin-Yu Wen
+
 # 2 Best practices that make it easier to test 
 1. The use of enum in `isTriangle.py`
 
