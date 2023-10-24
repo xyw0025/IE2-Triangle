@@ -48,11 +48,11 @@ We would not remove those test cases, because we are running different files for
 
 # Decision Points in the CFGs
 
-1. Scalene Triangle - 
-2. Isosceles Triangle - 
-3. Equilateral Triangle -
-4. Invalid Sides - 
-5. Triangle Inequality -  
+1. Scalene Triangle - 6
+2. Isosceles Triangle - 9
+3. Equilateral Triangle - 6
+4. Invalid Sides - 1
+5. Triangle Inequality - 9
 
 Information about decision points definitely helps in creating a more effective test suite. It enables a better understanding of the program's control flow, which can significantly enhance test case design. By considering decision points, you can:
 
