@@ -54,3 +54,10 @@ We would not remove those test cases, because we are running different files for
 4. Invalid Sides - 
 5. Triangle Inequality -  
 
+Information about decision points definitely helps in creating a more effective test suite. It enables a better understanding of the program's control flow, which can significantly enhance test case design. By considering decision points, you can:
+
+- Improve Statement and Decision Coverage: You can identify all possible control flow paths and the corresponding executed code statements. This knowledge aids in designing test cases that cover a broader range of scenarios, improving both statement and decision coverage.
+- Enhance Mutation Testing: Decision points are critical for mutation testing, where even slight changes can yield diverse outcomes. Understanding decision points allows you to create an adequate number of test cases to detect mutations effectively.
+- Address Edge Cases: Decision boundaries often define edge cases. Creating test cases that focus on these boundaries helps ensure the program functions correctly in critical, real-world scenarios.
+
+In summary, information about decision points guides test case design, leading to better coverage and more robust testing, especially in terms of handling mutations and edge cases.
