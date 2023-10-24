@@ -36,3 +36,21 @@ Some of the possible reasons why mutants are not detectable are as follows:
 
 For mutation detection rate, the rate dropped to 0 when all assertions are commented out. The mutants aren't killed since the program detects mutants by comparing the expected result and the actual result. For statement coverage and decision coverage, normative and exception cases are covered even if we delete all the assertions, thus the rates stay the same.
 
+
+# Test Case Redundancy 
+
+Test Code Redundancy is the situation where a (set of) test case is present performing the job of coverage as well as mutation detection, but we have created multiple instances of this test case in our test suite. In simple words, there are multiple test cases that follow the same flow path, and detect the same mutations - have same ojective in terms of coverage as well as mutation detection. 
+
+Yes there are some test cases in our test suites that are redundant. Just for example, `test_invalid_side_a` in Decision Coverage and `test_incorrect_return_valid_value_a` in Mutation are essentially performing the same task. There are many more such examples that fall in the category of Test Code Redundancy.
+
+We would not remove those test cases, because we are running different files for the coverage and mutation detection. Therefore, removal of one would definitely impact that respective test suite metric. However, if we had a singular file consisting of all test cases, then it is totally fine to remove the redundant test case. 
+
+
+# Decision Points in the CFGs
+
+1. Scalene Triangle - 
+2. Isosceles Triangle - 
+3. Equilateral Triangle -
+4. Invalid Sides - 
+5. Triangle Inequality -  
+
