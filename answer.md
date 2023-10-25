@@ -51,6 +51,8 @@ We would not remove those test cases, because we are running different files for
 
 # Decision Points in the CFGs
 
+In here we calculated the maximum number of decision points.
+
 1. Scalene Triangle - 6
 2. Isosceles Triangle - 9
 3. Equilateral Triangle - 6
